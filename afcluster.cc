@@ -5,6 +5,7 @@
 #include "seqio.hh"
 #include "freqs.hh"
 #include "em.hh"
+#include <time.h>
 
 enum {PC=1};  // default for pseudocount
 enum {TRIALS=100};  // number of bootstrap datasets for consensus clustering
